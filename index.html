@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bilibili</title>
+        <!-- css ----------------------------------->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightslider.css">
+        <!-- <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> -->
+        <!-- <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+        <!-- scrips --------------------------------->
+        <script src="js/JQuery3.3.1.js"></script>
+        <script src="js/lightslider.js"></script>
+        <script src="js/splide-extension-auto-scroll.min.js"></script>
+        <!-- icons ---------------------------------->
+        <link rel="stylesheet" href="fontawesome-free-6.0.0-web\fontawesome-free-6.0.0-web\css\all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- fav icon -------------------------------->
+        <link rel="shortcut icon" href="images/bilibili_tv.ico" type="image/x-icon">
+        
+    </head>
+    <body>
+        <!-- navigation: thanh điều hướng --------------------->
+        <nav>
+            <!-- logo ----------------------------------------->
+            <a href="#" class="logo">
+                <img src="images/top_logo.svg">
+            </a>
+            <!-- menu--btn------------------------------------ -->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <lable class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </lable> 
+            <!-- menu -->
+            <ul class="menu">
+                 <li><a href="#">Home</a></li>
+                 <li><a href="#">Movies</a></li>
+                 <li><a href="#">TV Shows</a></li>
+                 <li><a href="#">HOLLYWOOD</a></li>
+                 <li><a href="#">HORROR</a></li>
+            </ul>
+            <!-- search --------------------------------------->
+            <div class="search">
+                <input type="text" placeholder="Find Your Favorite Movies">
+                <!-- search icon ------------------------------>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="logIn"><a href="#">Log in</a></div>
+        </nav>
+
+        <section id="main">
+            <h1 class="showcase-heading">Showcase</h1>
+            <!-- <hr> -->
+            <!-- showcase ------------------------------------->
+            <!-- heading --------------------------------------->
+            <ul id="autoWidth" class="cs-hidden">
+                <!-- box-1------------------------------------->
+                <li class="item-a">
+                    <div class="showcase-box">
+                        <img src="images/001.jpg">
+                    </div>
+                </li>
+                <!-- box-2------------------------------------->
+                <li class="item-a">
+                    <div class="showcase-box">
+                        <img src="images/002.jpg">
+                    </div>
+                </li>
+                <!-- box-3------------------------------------->
+                <li class="item-a">
+                    <div class="showcase-box">
+                        <img src="images/003.jpg">
+                    </div>
+                </li>
+                <!-- box-4------------------------------------->
+                <li class="item-a">
+                    <div class="showcase-box">
+                        <img src="images/004.jpg">
+                    </div>
+                </li>
+                <!-- box-5------------------------------------->
+                <li class="item-a">
+                    <div class="showcase-box">
+                        <img src="images/005.jpg">
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="showcase-box">
+                        <img src="images/005.jpg">
+                    </div>
+                </li>
+              </ul>
+        </section>
+
+        <section id="latest">
+            <h1 class="latest-heading">Top animes</h1>
+            <ul id="autoWidth2" class="cs-hidden">
+                <!-- silde-box1-------------------------------->
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/slime.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Chuyển sinh thành slime</strong>
+                            <p>Top 1</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/attackontitan.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Attach on Titan</strong>
+                            <p>Top 2</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/kimetsu.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Kimetsu no yaiba</strong>
+                            <p>Top 3</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/haikyu!!.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Haikyu!!</strong>
+                            <p>Top 4</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/flymetothemoon.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Fly me to the moon</strong>
+                            <p>Top 5</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/jujutsukaisen.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Jujutsu kaisen</strong>
+                            <p>Top 6</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/naruto.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Naruto</strong>
+                            <p>Top 7</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/onepiece.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>One piece</strong>
+                            <p>Top 8</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/tokyorevenger.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Tokyo revengers</strong>
+                            <p>Top 9</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="item-a">
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/leadale.jpg">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>In the Land of Leadale</strong>
+                            <p>Top 10</p>
+                        </div>
+                    </div>
+                </li>
+
+              </ul>
+        </section>
+
+        <!-- movies-------------------------------------->
+        <div class="movies-heading">
+            <h2>Movies</h2>
+        </div>
+        <section class="movies-list">
+            <!-- box 1------------------------->
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-1.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-2.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-3.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-4.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-5.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-6.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-7.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/l-8.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/kimetsu.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+            <div class="movies-box">
+                <!-- img -->
+                <div class="movies-img">
+                    <div class="quality">HDRip</div>
+                    <img src="images/haikyu!!.jpg">
+                </div>
+                <a href="#">Full movies</a>
+            </div>
+        </section>
+
+        <!-- btns------------------------------------------------>
+        <div class="btns">
+            <a href="#">Previous</a>
+            <a href="#">Next</a>
+        </div>
+        <!-- footer--------------------------------------------------------------->
+        <footer>
+           <p>@yuminan</p>
+           <p>Copyright 2022 - VuMinhAnh</p> 
+        </footer>
+
+        <!-- slider-script ---------------------------->
+        <script>
+            $(document).ready(function() {
+                $('#autoWidth,#autoWidth2').lightSlider({
+                    autoWidth:true,
+                    loop:true,
+                    onSliderLoad: function() {
+                        $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+                    } 
+                });
+            });
+        </script>
+        <!-- <script src="js/script.js"></script> -->
+</body>
+</html>
